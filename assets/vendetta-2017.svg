@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d10"/>
+      <stop offset="1" stop-color="#10141a"/>
+    </linearGradient>
+    <radialGradient id="r" cx="35%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <rect width="900" height="1200" fill="url(#r)"/>
+
+  <!-- outbreak rings -->
+  <g opacity="0.92">
+    <circle cx="450" cy="640" r="280" fill="#11151a" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+    <circle cx="450" cy="640" r="200" fill="none" stroke="rgba(167,139,250,0.22)" stroke-width="10"/>
+    <circle cx="450" cy="640" r="130" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="8"/>
+    <circle cx="450" cy="640" r="70" fill="#0f1318"/>
+  </g>
+
+  <g font-family="Inter, system-ui" fill="#e7eaf0">
+    <text x="70" y="140" font-size="38" font-weight="850">VENDETTA</text>
+    <text x="70" y="190" font-size="18" fill="#a8b0bf">2017 • Fan cover art</text>
+  </g>
+
+  <text x="70" y="1120" font-family="Inter, system-ui" font-size="14" fill="#a8b0bf">Tailored virus • personal revenge</text>
+</svg>

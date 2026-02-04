@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d10"/>
+      <stop offset="1" stop-color="#0d0b15"/>
+    </linearGradient>
+    <radialGradient id="r" cx="70%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <rect width="900" height="1200" fill="url(#r)"/>
+
+  <!-- documents / shadows -->
+  <g opacity="0.92">
+    <rect x="160" y="340" width="580" height="680" rx="18" fill="#11151a" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+    <rect x="200" y="400" width="500" height="90" rx="14" fill="#0f1318"/>
+    <rect x="200" y="520" width="500" height="90" rx="14" fill="#0f1318"/>
+    <rect x="200" y="640" width="500" height="90" rx="14" fill="#0f1318"/>
+    <path d="M240 455 H660" stroke="rgba(167,139,250,0.20)" stroke-width="8"/>
+  </g>
+
+  <g font-family="Inter, system-ui" fill="#e7eaf0">
+    <text x="70" y="140" font-size="34" font-weight="850">INFINITE DARKNESS</text>
+    <text x="70" y="190" font-size="18" fill="#a8b0bf">2021 • Fan cover art</text>
+  </g>
+
+  <text x="70" y="1120" font-family="Inter, system-ui" font-size="14" fill="#a8b0bf">Limited series • secrets and coverups</text>
+</svg>

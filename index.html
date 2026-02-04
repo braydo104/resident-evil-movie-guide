@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resident Evil Movie Guide (Fan App)</title>
+  <meta name="description" content="A fan-made offline movie guide for the Resident Evil films and CGI features." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand">
+        <div class="brand__title">Resident Evil Movie Guide</div>
+        <div class="brand__subtitle">Fan-made, offline, spoiler-light summaries</div>
+      </div>
+
+      <div class="search">
+        <label class="sr-only" for="q">Search movies</label>
+        <input id="q" class="search__input" type="search" placeholder="Search by title, year, character…" autocomplete="off" />
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel list" aria-label="Movie list">
+      <div class="list__toolbar">
+        <div class="filters" role="group" aria-label="Filters">
+          <button class="chip is-active" data-kind="all" type="button">All</button>
+          <button class="chip" data-kind="live" type="button">Live-action</button>
+          <button class="chip" data-kind="cgie" type="button">CGI (animated)</button>
+          <button class="chip" data-kind="other" type="button">Short/Series</button>
+        </div>
+        <div class="meta">
+          <span id="count" class="meta__count">0</span>
+          <span class="meta__hint">sorted by year</span>
+        </div>
+      </div>
+
+      <div id="list" class="cards" role="list"></div>
+    </section>
+
+    <section class="panel detail" aria-label="Movie details">
+      <div id="detail" class="detail__inner">
+        <div class="detail__empty">
+          <div class="detail__emptyTitle">Pick a movie</div>
+          <div class="detail__emptyText">Select a card to see description, continuity, and key info.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <strong>Disclaimer:</strong> This is a fan-made guide. Resident Evil/Biohazard is owned by its respective rights holders.
+      </div>
+      <div class="footer__right">
+        <button id="toggleSpoilers" class="linkButton" type="button" aria-pressed="false">
+          Spoiler mode: Off
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

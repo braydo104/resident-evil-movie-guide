@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d10"/>
+      <stop offset="1" stop-color="#1a120b"/>
+    </linearGradient>
+    <radialGradient id="r" cx="50%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <rect width="900" height="1200" fill="url(#r)"/>
+
+  <!-- desert road -->
+  <path d="M420 1200 L480 1200 L580 760 L320 760 Z" fill="#11151a" opacity="0.9"/>
+  <path d="M450 1200 L450 760" stroke="rgba(255,255,255,0.12)" stroke-width="8" stroke-dasharray="18 18"/>
+  <circle cx="450" cy="740" r="18" fill="#f97316" opacity="0.55"/>
+
+  <g font-family="Inter, system-ui" fill="#e7eaf0">
+    <text x="70" y="140" font-size="38" font-weight="850">EXTINCTION</text>
+    <text x="70" y="190" font-size="18" fill="#a8b0bf">2007 • Fan cover art</text>
+  </g>
+
+  <text x="70" y="1120" font-family="Inter, system-ui" font-size="14" fill="#a8b0bf">Convoy survival • experiments continue</text>
+</svg>
